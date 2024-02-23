@@ -1,0 +1,2 @@
+connect target /;
+BACKUP DATABASE pflex1 PLUS ARCHIVELOG;
