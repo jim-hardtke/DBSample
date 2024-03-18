@@ -1,0 +1,2 @@
+connect target /;
+BACKUP DATABASE ${{PDB_NAME}} PLUS ARCHIVELOG;
