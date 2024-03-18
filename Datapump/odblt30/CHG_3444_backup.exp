@@ -1,1 +1,1 @@
-CHG_3429_backup.exp
+$ORACLE_HOME/bin/expdp $DB_USER\/$DB_PASSWORD@$PDB_NAME directory=$DATA_PUMP_DIR dumpfile=$FILE_NAME_$(date +%Y%m%d-%H-%M-%S).dmp
