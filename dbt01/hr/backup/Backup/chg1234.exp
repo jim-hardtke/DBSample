@@ -1,0 +1,1 @@
+expdp system/$SYSTEMPWD directory=DATA_PUMP_DIR content=ALL dumpfile=expdp_`echo $ORACLE_SID`_`echo $DATEFORMAT`.dmp schemas=hr logfile=$EXPLOG nologfile=N
