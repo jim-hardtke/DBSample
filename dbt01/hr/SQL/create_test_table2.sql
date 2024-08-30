@@ -1,0 +1,6 @@
+
+  CREATE TABLE "HR"."TEST_TABLE2" 
+   (	"C1" NUMBER, 
+	"C2" VARCHAR2(20 BYTE)
+   );
+
